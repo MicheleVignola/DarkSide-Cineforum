@@ -10,7 +10,7 @@
 	text-decoration: underline blue solid!important;
 }
 
-.modal-footer{
+#addModal .modal-footer{
 	visibility: hidden;
 }
 

@@ -53,5 +53,5 @@ function setEditForm(codice, titolo){
 }
 
 $('#addModal').on('hidden.bs.modal', function () {
-	$(".modal-footer").css("visibility", "hidden");
+	$("#addModal .modal-footer").css("visibility", "hidden");
 });
