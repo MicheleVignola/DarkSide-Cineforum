@@ -22,7 +22,7 @@
 	      </li>
 	      <% if (user != null) { %>
 		      <li class="nav-item mx-auto">
-		        <a class="nav-link" href="<%= response.encodeURL(getServletContext().getContextPath() + "") %>">Suggerimenti personalizzati</a>
+		        <a class="nav-link" href="<%= response.encodeURL(getServletContext().getContextPath() + "/SuggerimentiFilm") %>">Suggerimenti personalizzati</a>
 		      </li>
 	      <% } %>
 	      <li class="nav-item mx-auto">

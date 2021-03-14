@@ -50,7 +50,7 @@
 							<span id="linkLista">
 								<% if (user != null && user.getUsername().equals(userLista)) { %>
 									<a href="" data-toggle="modal" data-target="#editModal" onClick="setEditForm('<%=film.getCodiceFilm() %>', '<%=film.getTitolo() %>')">modifica</a>
-									<a href="<%= "ListaOperation?action=remove&codiceFilm=" + film.getCodiceFilm() + "&username=" +  user.getUsername() %>">elimina</a>
+									<a href="<%= "ListaOperation?action=remove&codiceFilm=" + film.getCodiceFilm() + "&username=" +  user.getUsername() + "&categoria=" +  element.getCategoria()%>">elimina</a>
 								<% } %>
 							</span>
 						</div>
